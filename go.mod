@@ -1,4 +1,4 @@
-module github.com/GoAdminGroup/go-admin
+module ProgrammerYan/go-admin
 
 go 1.21
 

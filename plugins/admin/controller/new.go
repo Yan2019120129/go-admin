@@ -5,21 +5,21 @@ import (
 	template2 "html/template"
 	"net/http"
 
-	"github.com/GoAdminGroup/go-admin/template"
+	"ProgrammerYan/go-admin/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"ProgrammerYan/go-admin/modules/logger"
 
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
+	"ProgrammerYan/go-admin/plugins/admin/modules/response"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/file"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"ProgrammerYan/go-admin/context"
+	"ProgrammerYan/go-admin/modules/auth"
+	"ProgrammerYan/go-admin/modules/file"
+	"ProgrammerYan/go-admin/modules/language"
+	"ProgrammerYan/go-admin/plugins/admin/modules"
+	"ProgrammerYan/go-admin/plugins/admin/modules/constant"
+	form2 "ProgrammerYan/go-admin/plugins/admin/modules/form"
+	"ProgrammerYan/go-admin/plugins/admin/modules/guard"
+	"ProgrammerYan/go-admin/template/types"
 )
 
 // ShowNewForm show a new form page.

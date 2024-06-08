@@ -3,9 +3,9 @@ package display
 import (
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"ProgrammerYan/go-admin/context"
+	"ProgrammerYan/go-admin/template/icon"
+	"ProgrammerYan/go-admin/template/types"
 	"github.com/GoAdminGroup/html"
 )
 

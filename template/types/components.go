@@ -7,9 +7,9 @@ package types
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"ProgrammerYan/go-admin/modules/menu"
+	"ProgrammerYan/go-admin/plugins/admin/modules"
+	"ProgrammerYan/go-admin/template/types/form"
 )
 
 type FormAttribute interface {

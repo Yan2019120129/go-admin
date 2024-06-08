@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
+	"ProgrammerYan/go-admin/modules/db"
+	"ProgrammerYan/go-admin/modules/db/dialect"
 )
 
 // RoleModel is role model structure.

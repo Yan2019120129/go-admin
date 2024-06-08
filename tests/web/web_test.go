@@ -6,16 +6,16 @@ import (
 	"os"
 	"testing"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "ProgrammerYan/go-admin/adapter/gin"
+	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
 	_ "github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
+	"ProgrammerYan/go-admin/engine"
+	"ProgrammerYan/go-admin/modules/config"
+	"ProgrammerYan/go-admin/plugins/admin"
+	"ProgrammerYan/go-admin/template"
+	"ProgrammerYan/go-admin/template/chartjs"
+	"ProgrammerYan/go-admin/tests/tables"
 	"github.com/gin-gonic/gin"
 )
 

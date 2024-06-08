@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"ProgrammerYan/go-admin/context"
+	"ProgrammerYan/go-admin/modules/config"
 
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	errs "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/paginator"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"ProgrammerYan/go-admin/modules/db"
+	"ProgrammerYan/go-admin/modules/db/dialect"
+	errs "ProgrammerYan/go-admin/modules/errors"
+	"ProgrammerYan/go-admin/modules/language"
+	"ProgrammerYan/go-admin/modules/logger"
+	"ProgrammerYan/go-admin/plugins/admin/modules"
+	"ProgrammerYan/go-admin/plugins/admin/modules/constant"
+	"ProgrammerYan/go-admin/plugins/admin/modules/form"
+	"ProgrammerYan/go-admin/plugins/admin/modules/paginator"
+	"ProgrammerYan/go-admin/plugins/admin/modules/parameter"
+	"ProgrammerYan/go-admin/template/types"
 )
 
 // DefaultTable is an implementation of table.Table
@@ -703,7 +703,7 @@ func (tb *DefaultTable) GetDataWithId(param parameter.Parameters) (FormInfo, err
 		}
 
 		if len(joinTables) > 0 {
-			if connection.Name() == db.DriverMssql  || connection.Name() == db.DriverPostgresql {
+			if connection.Name() == db.DriverMssql || connection.Name() == db.DriverPostgresql {
 				groupBy = " GROUP BY " + groupFields
 			} else {
 				groupBy = " GROUP BY " + pk
@@ -1139,7 +1139,7 @@ func (tb *DefaultTable) getColumns(table string) (Columns, bool) {
 	columnsModel, _ := tb.sql().Table(table).ShowColumns()
 
 	columns := make(Columns, len(columnsModel))
-	defer func(){
+	defer func() {
 		fmt.Println("getColumns columns", columns)
 	}()
 	switch tb.connectionDriver {
