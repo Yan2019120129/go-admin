@@ -1,12 +1,12 @@
 package main
 
 import (
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/auth"
-	c "ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/service"
-	"ProgrammerYan/go-admin/plugins"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/auth"
+	c "github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/service"
+	"github.com/Yan2019120129/go-admin/plugins"
 )
 
 type Example struct {

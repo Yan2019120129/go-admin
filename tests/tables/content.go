@@ -3,17 +3,17 @@ package tables
 import (
 	"html/template"
 
-	"ProgrammerYan/go-admin/context"
-	tmpl "ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/chartjs"
-	"ProgrammerYan/go-admin/template/icon"
-	"ProgrammerYan/go-admin/template/types"
 	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
 	"github.com/GoAdminGroup/themes/adminlte/components/description"
 	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
 	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
 	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
 	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/Yan2019120129/go-admin/context"
+	tmpl "github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/chartjs"
+	"github.com/Yan2019120129/go-admin/template/icon"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 // GetContent return the content of index page.

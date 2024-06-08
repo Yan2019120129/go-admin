@@ -4,32 +4,32 @@ import (
 	// add gf adapter
 	"reflect"
 
-	_ "ProgrammerYan/go-admin/adapter/gf2"
+	_ "github.com/Yan2019120129/go-admin/adapter/gf2"
 	"github.com/agiledragon/gomonkey"
 
 	// add mysql driver
-	"ProgrammerYan/go-admin/modules/config"
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
-	"ProgrammerYan/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mysql"
+	"github.com/Yan2019120129/go-admin/modules/language"
 
 	// add postgresql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/postgres"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mssql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"ProgrammerYan/go-admin/engine"
-	"ProgrammerYan/go-admin/plugins/admin"
-	"ProgrammerYan/go-admin/plugins/admin/modules/table"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/chartjs"
-	"ProgrammerYan/go-admin/tests/tables"
+	"github.com/Yan2019120129/go-admin/engine"
+	"github.com/Yan2019120129/go-admin/plugins/admin"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/table"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/chartjs"
+	"github.com/Yan2019120129/go-admin/tests/tables"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )

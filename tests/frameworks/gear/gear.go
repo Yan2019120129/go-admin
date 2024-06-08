@@ -2,30 +2,30 @@ package gear
 
 import (
 	// add gin adapter
-	ada "ProgrammerYan/go-admin/adapter/gear"
+	ada "github.com/Yan2019120129/go-admin/adapter/gear"
 	"github.com/teambition/gear"
 
 	// add mysql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/postgres"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mssql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	"github.com/GoAdminGroup/themes/adminlte"
 
 	"net/http"
 	"os"
 
-	"ProgrammerYan/go-admin/engine"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/plugins/admin/modules/table"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/chartjs"
-	"ProgrammerYan/go-admin/tests/tables"
+	"github.com/Yan2019120129/go-admin/engine"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/table"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/chartjs"
+	"github.com/Yan2019120129/go-admin/tests/tables"
 )
 
 func internalHandler() http.Handler {

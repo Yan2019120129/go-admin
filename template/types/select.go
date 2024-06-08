@@ -4,9 +4,9 @@ import (
 	"html/template"
 	"strconv"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/utils"
 )
 
 type DefaultSelection struct {

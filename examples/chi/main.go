@@ -9,17 +9,17 @@ import (
 	"strings"
 	"time"
 
-	_ "ProgrammerYan/go-admin/adapter/chi"
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
+	_ "github.com/Yan2019120129/go-admin/adapter/chi"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mysql"
 
-	"ProgrammerYan/go-admin/engine"
-	"ProgrammerYan/go-admin/examples/datamodel"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/plugins/example"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/Yan2019120129/go-admin/engine"
+	"github.com/Yan2019120129/go-admin/examples/datamodel"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/plugins/example"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/chartjs"
 	"github.com/go-chi/chi"
 )
 

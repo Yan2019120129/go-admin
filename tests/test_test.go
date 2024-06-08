@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/tests/frameworks/gin"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/tests/frameworks/gin"
 )
 
 func TestBlackBoxTestSuitOfBuiltInTables(t *testing.T) {

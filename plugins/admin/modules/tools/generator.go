@@ -10,14 +10,14 @@ import (
 	"strings"
 	"text/template"
 
-	"ProgrammerYan/go-admin/modules/db/dialect"
-	"ProgrammerYan/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/db/dialect"
+	"github.com/Yan2019120129/go-admin/modules/language"
 	"golang.org/x/text/cases"
 	textLang "golang.org/x/text/language"
 
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/utils"
-	"ProgrammerYan/go-admin/template/types/form"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/template/types/form"
 )
 
 type Param struct {

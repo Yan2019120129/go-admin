@@ -17,9 +17,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"ProgrammerYan/go-admin/modules/logger"
-	"ProgrammerYan/go-admin/modules/utils"
-	"ProgrammerYan/go-admin/plugins/admin/modules/form"
+	"github.com/Yan2019120129/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/form"
 	"gopkg.in/ini.v1"
 	"gopkg.in/yaml.v2"
 )

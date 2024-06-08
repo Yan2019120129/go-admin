@@ -5,26 +5,26 @@ import (
 	"os"
 
 	// add beego adapter
-	_ "ProgrammerYan/go-admin/adapter/beego2"
+	_ "github.com/Yan2019120129/go-admin/adapter/beego2"
 	// add mysql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/postgres"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mssql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mssql"
 
-	"ProgrammerYan/go-admin/engine"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/plugins/admin"
-	"ProgrammerYan/go-admin/plugins/admin/modules/table"
-	"ProgrammerYan/go-admin/plugins/example"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/chartjs"
-	"ProgrammerYan/go-admin/tests/tables"
 	"github.com/GoAdminGroup/themes/adminlte"
+	"github.com/Yan2019120129/go-admin/engine"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/plugins/admin"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/table"
+	"github.com/Yan2019120129/go-admin/plugins/example"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/chartjs"
+	"github.com/Yan2019120129/go-admin/tests/tables"
 	"github.com/beego/beego/v2/server/web"
 )
 

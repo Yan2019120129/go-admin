@@ -7,14 +7,14 @@ package page
 import (
 	"bytes"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/logger"
-	"ProgrammerYan/go-admin/modules/menu"
-	"ProgrammerYan/go-admin/plugins/admin/models"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/menu"
+	"github.com/Yan2019120129/go-admin/plugins/admin/models"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 // SetPageContent set and return the panel of page content.

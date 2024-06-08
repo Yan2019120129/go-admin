@@ -6,17 +6,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/auth"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/logger"
-	"ProgrammerYan/go-admin/modules/system"
-	"ProgrammerYan/go-admin/plugins/admin/models"
-	"ProgrammerYan/go-admin/plugins/admin/modules/captcha"
-	"ProgrammerYan/go-admin/plugins/admin/modules/response"
-	"ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/auth"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/system"
+	"github.com/Yan2019120129/go-admin/plugins/admin/models"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/captcha"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/response"
+	"github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 // Auth check the input password and username for authentication.

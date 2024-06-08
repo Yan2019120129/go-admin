@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 type Date struct {

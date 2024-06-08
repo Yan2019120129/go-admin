@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/trace"
-	"ProgrammerYan/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/trace"
+	"github.com/Yan2019120129/go-admin/modules/utils"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"

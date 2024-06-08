@@ -10,23 +10,23 @@ import (
 	"strings"
 	"time"
 
-	"ProgrammerYan/go-admin/modules/system"
+	"github.com/Yan2019120129/go-admin/modules/system"
 
-	"ProgrammerYan/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/logger"
 
-	"ProgrammerYan/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/config"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/auth"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/modules/remote_server"
-	"ProgrammerYan/go-admin/modules/utils"
-	"ProgrammerYan/go-admin/plugins"
-	"ProgrammerYan/go-admin/plugins/admin/modules/guard"
-	template2 "ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/types"
-	"ProgrammerYan/go-admin/template/types/form"
 	"github.com/GoAdminGroup/html"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/auth"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/remote_server"
+	"github.com/Yan2019120129/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/plugins"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/guard"
+	template2 "github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/template/types/form"
 	"github.com/gin-gonic/gin"
 )
 

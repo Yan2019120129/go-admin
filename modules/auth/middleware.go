@@ -8,17 +8,17 @@ import (
 	"net/http"
 	"net/url"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/constant"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/errors"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/modules/logger"
-	"ProgrammerYan/go-admin/modules/page"
-	"ProgrammerYan/go-admin/plugins/admin/models"
-	template2 "ProgrammerYan/go-admin/template"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/constant"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/errors"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/page"
+	"github.com/Yan2019120129/go-admin/plugins/admin/models"
+	template2 "github.com/Yan2019120129/go-admin/template"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 // Invoker contains the callback functions which are used

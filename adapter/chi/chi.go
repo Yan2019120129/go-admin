@@ -12,14 +12,14 @@ import (
 	"regexp"
 	"strings"
 
-	"ProgrammerYan/go-admin/adapter"
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/engine"
-	cfg "ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/plugins"
-	"ProgrammerYan/go-admin/plugins/admin/models"
-	"ProgrammerYan/go-admin/plugins/admin/modules/constant"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/adapter"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/engine"
+	cfg "github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/plugins"
+	"github.com/Yan2019120129/go-admin/plugins/admin/models"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/constant"
+	"github.com/Yan2019120129/go-admin/template/types"
 	"github.com/go-chi/chi"
 )
 

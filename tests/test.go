@@ -5,12 +5,12 @@ import (
 	"strings"
 	"testing"
 
-	"ProgrammerYan/go-admin/modules/config"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/db/dialect"
-	"ProgrammerYan/go-admin/plugins/admin/modules/table"
-	"ProgrammerYan/go-admin/tests/common"
-	"ProgrammerYan/go-admin/tests/frameworks/fasthttp"
+	"github.com/Yan2019120129/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/db/dialect"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/table"
+	"github.com/Yan2019120129/go-admin/tests/common"
+	"github.com/Yan2019120129/go-admin/tests/frameworks/fasthttp"
 	"github.com/gavv/httpexpect"
 	fasthttp2 "github.com/valyala/fasthttp"
 )

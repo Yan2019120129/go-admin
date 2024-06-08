@@ -3,9 +3,9 @@ package guard
 import (
 	"strings"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/errors"
-	"ProgrammerYan/go-admin/plugins/admin/modules/table"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/errors"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/table"
 )
 
 type ExportParam struct {

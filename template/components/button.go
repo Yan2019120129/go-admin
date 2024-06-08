@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"html/template"
 
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/modules/utils"
-	"ProgrammerYan/go-admin/template/icon"
-	"ProgrammerYan/go-admin/template/types"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/template/icon"
+	"github.com/Yan2019120129/go-admin/template/types"
 )
 
 type ButtonAttribute struct {

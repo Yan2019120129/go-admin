@@ -9,18 +9,18 @@ import (
 	"strconv"
 	"strings"
 
-	"ProgrammerYan/go-admin/modules/config"
+	"github.com/Yan2019120129/go-admin/modules/config"
 
-	"ProgrammerYan/go-admin/context"
-	"ProgrammerYan/go-admin/modules/db"
-	"ProgrammerYan/go-admin/modules/errors"
-	"ProgrammerYan/go-admin/modules/language"
-	"ProgrammerYan/go-admin/modules/logger"
-	"ProgrammerYan/go-admin/modules/utils"
-	"ProgrammerYan/go-admin/plugins/admin/modules"
-	"ProgrammerYan/go-admin/plugins/admin/modules/parameter"
-	"ProgrammerYan/go-admin/template/types/form"
-	"ProgrammerYan/go-admin/template/types/table"
+	"github.com/Yan2019120129/go-admin/context"
+	"github.com/Yan2019120129/go-admin/modules/db"
+	"github.com/Yan2019120129/go-admin/modules/errors"
+	"github.com/Yan2019120129/go-admin/modules/language"
+	"github.com/Yan2019120129/go-admin/modules/logger"
+	"github.com/Yan2019120129/go-admin/modules/utils"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules"
+	"github.com/Yan2019120129/go-admin/plugins/admin/modules/parameter"
+	"github.com/Yan2019120129/go-admin/template/types/form"
+	"github.com/Yan2019120129/go-admin/template/types/table"
 )
 
 // FieldModel is the single query result.

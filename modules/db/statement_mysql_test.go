@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"testing"
 
-	_ "ProgrammerYan/go-admin/modules/db/drivers/mysql"
+	_ "github.com/Yan2019120129/go-admin/modules/db/drivers/mysql"
 )
 
 var driverTestMysqlConn Connection
